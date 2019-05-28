@@ -59,6 +59,12 @@ to push the other branch
 git push --set-upstream origin thirsty
 
 
+create branch and switch 
+git checkout -b branchname2
+
+delect the branch 
+
+git branch -d branchname2
 
 
 
