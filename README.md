@@ -19,3 +19,16 @@ git log
 
 push to global change
 git push 
+
+
+undo the unstaged file
+git checkout -- filename
+
+undo the commited file 
+git log
+git revert keyid
+
+
+
+# go the particalar commit id
+git reset 
