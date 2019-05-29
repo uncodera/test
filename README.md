@@ -21,7 +21,9 @@ push to global change
 git push 
 
 
-undo the unstaged file
+undo the unstaged file  or
+If you have modified a file in your working tree, but haven't committed the change, then you can use git checkout to checkout a fresh-from-repository copy of the file.
+
 git checkout -- filename
 
 undo the commited file 
