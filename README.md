@@ -69,7 +69,13 @@ delect the branch
 git branch -d branchname2
 
 
+download the other branch
 
+ git fetch origin other-branch
+ 
+ and merge it
+ git merge origin/other-branch
+ git commit    # And commit the merge!
 
 
 
