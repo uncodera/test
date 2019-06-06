@@ -78,6 +78,12 @@ download the other branch
  git commit    # And commit the merge!
 
 
+git rest [commit]
+#it will undo all commits after this commit
+
+git reset --hard [commit]
+#discard all history and changes back to the sepcified commit
+
 
 
 
