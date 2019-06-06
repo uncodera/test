@@ -102,6 +102,18 @@ it will run the merging tool you got configured in your .gitconfig file
 
 after that you can push your changes
 
+Your working copy and staging area:
+git diff
+Staging area and the latest commit:
+git diff --staged
+Your working copy and commit 4ac0a6733:
+git diff 4ac0a6733
+Commit 4ac0a6733 and the latest commit:
+git diff 4ac0a6733 HEAD
+Commit 4ac0a6733 and commit 826793951
+git diff 4ac0a6733 826793951
+
+
 
 
 
