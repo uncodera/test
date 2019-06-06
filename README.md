@@ -116,6 +116,9 @@ git diff 4ac0a6733 826793951
 
 
 
+so he uses the git show command to review his changes.
+
+git show d1e19d316224cddc437e3ed34ec3c931ad803958
 
 
 
