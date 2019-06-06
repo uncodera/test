@@ -87,6 +87,22 @@ git reset --hard [commit]
 
 
 
+#Two people working on a file at the same time in git [duplicate]
+
+the procedure should be the below:
+
+pull the file
+edit it
+commit it(it commits to your local repository)
+pull it again (if there are any conflict you will Be notified) in that case you can solve it executing the below command(GitBash on your repository working folder):
+
+git mergetool
+
+it will run the merging tool you got configured in your .gitconfig file
+
+after that you can push your changes
+
+
 
 
 
